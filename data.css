@@ -1,0 +1,116 @@
+#wrapper {
+    margin: auto;
+    width: 900px;
+    height: 1035px;
+    background: radial-gradient(#6f5964, #1c0c10);
+}
+
+.header {
+    height: 60px;
+    background-color: rgb(236, 232, 232);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name {
+    height: 50px;
+    width: 300px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.title{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 440px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.about {
+    padding-top: 0px;
+    margin-top: 0px;
+    height: 300px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subheading {
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(lightgray, gray, lightgray);
+    line-height: 40px;
+}
+.intro {
+    width: 50%;
+    height: 260px;
+    margin-right: 15px;
+    background: linear-gradient(45deg, white, rgb(250, 215, 250));;
+}
+.img {
+    display: flex;
+    width: 745.5;
+    margin-left: 15px;
+    border: 5px solid lightgrey;
+}
+.mainbody {
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.para {
+    min-height: 180px;
+    text-align: justify;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.apps {
+    width: 30%;
+    height: 590px;
+    justify-content: space-around;
+    background: linear-gradient(45deg, white, rgb(250, 215, 250));;
+}
+.button {
+    display: block;
+    margin: auto;
+    background-color: #407d61;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 8px;
+    border-style: solid rgb(0, 0, 0) 2px;
+}
+.personal {
+    height: 60px;
+    background-color: rgb(236, 232, 232);
+}
+.direct_contact {
+    text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    display: flex;
+    height: 20px;
+    width: 90px;
+    font-style: italic;
+    text-decoration: underline black;
+}
+.png {
+    width: 270px;
+}
+.techs img {
+    padding: 5px;
+}
